@@ -44,5 +44,8 @@ ANDROID_HOME=/path/to/android-sdk bash kiosk/build.sh
 adb install -r kiosk/build/homehq.apk
 ```
 
+The kiosk is also a Home app. On a frame where it is the only one, for example after
+disabling the vendor's home app, it starts at boot.
+
 The kiosk loads the existing hosted dashboard over the frame's Wi-Fi. A USB
 connection is only needed for installation or diagnostics, not normal use.
